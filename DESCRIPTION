@@ -1,0 +1,14 @@
+Package: directoryreader
+Title: Loading multiple csv files from one directory
+Version: 0.0.0.9000
+Authors@R: person("Adriaan", "Nering Bogel", email = "first.last@example.com", role = c("aut", "cre"))
+Description: This package gives you the opportunity to load multiple identical csv files from one directory into your environment as one dataframe.
+Depends: R (>= 3.4.2)
+License: GPL v3
+Encoding: UTF-8
+LazyData: true
+Imports:
+  dplyr (>= 0.7.4)
+RoxygenNote: 6.1.0
+Suggests: 
+    testthat
